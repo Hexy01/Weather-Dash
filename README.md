@@ -26,4 +26,3 @@ This template provides a minimal setup to get React working in Vite with HMR and
 1. *Clone the repository*
    ```bash
    git clone https://github.com/Hexy01/Weather-Dash.git
-   cd weather-dashboard
