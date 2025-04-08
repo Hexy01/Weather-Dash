@@ -2,11 +2,28 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# ⛅ Weather Snap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"Weather Snap" is a responsive and minimalist weather app that enables users to find real-time weather info by city. The app provides a simple and minimalist UI with recent search history for instant retrieval. The app retrieves live weather data through the OpenWeatherMap API and shows temperature, conditions, and more in a simplistic interface.
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React.js, Tailwind CSS
+- Icons & UI Improvements: React Icons, Gradient backgrounds
+- API Integration: OpenWeatherMap (REST API)
+
+## 🚀 Features
+
+- Real-time weather search by city
+- History of recent searches with clickable links
+- Responsive and interactive modern UI
+- Error handling in case of invalid city names or API errors
+- 5 days weather forcast for the chosen city
+- Search History
+
+## 🛠 Setup Instructions
+
+1. *Clone the repository*
+   ```bash
+   git clone https://github.com/Hexy01/Weather-Dash.git
+   cd weather-snap
